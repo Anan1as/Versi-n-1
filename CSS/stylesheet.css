@@ -287,3 +287,37 @@
 #register {
     color: #CE4760;
 }
+
+/*--------------------Dashboard page---------------------*/
+
+#Dashboard {
+    background: #638475;
+    width: 1440px;
+    height: 1024px;
+    font-family: "Inknut Antiqua";
+    font-style: normal;
+}
+
+.navigate {
+    width: 1440px;
+    height: 97px;
+    background: #DDF093;
+    flex-shrink: 0;
+}
+
+.logoNav {
+    width: 99px;
+    height: 88px;
+    flex-shrink: 0;
+}
+
+.nav-link {
+    font-size: 40px;
+    color: #000;
+}
+
+.tuerca {
+    width: 37px;
+    height: 37px;
+    flex-shrink: 0;
+}
