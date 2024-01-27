@@ -42,18 +42,18 @@
     line-height: normal;
 }
 
+/*--------------------------------- Register page ---------------------------------*/
+
 #registro {
     background: #638475;
 }
 
-#logoIngreso {
+.logoIngreso {
     width: 135px;
     height: 135px;
 }
 
-
-/*--------------------------------- Register page ---------------------------------*/
-#contenedor {
+.contenedor {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -117,6 +117,7 @@
 #password-register {
     position: relative;
     left: 20px;
+    margin-bottom: 10px;
 }
 
 #password-verification {
@@ -143,11 +144,7 @@
     background: #DDF093;
 }
 
-#password-register {
-    margin-bottom: 10px;
-}
-
-#interlude {
+.interlude {
     margin-top: 30px;
     margin-bottom: 20px;
     width: 500px;
@@ -218,10 +215,75 @@
     margin-top: 10px;
 }
 
-#account {
+.account {
     color: #000;
 }
 
 #login {
+    color: #CE4760;
+}
+
+/*---------------------Log in page---------------------*/
+
+#inicioSesion {
+    background: #638475;
+
+}
+
+#inicioSesion-box {
+    width: 519px;
+    height: 391px;
+    box-shadow: 4px 4px 4px 2px #CE4760;
+    background: #F6D0B1;
+    flex-shrink: 0;
+}
+
+#labelUsernameLI {
+    position: relative;
+    right: 20px;
+}
+
+#username-LogIn {
+    position: relative;
+    left: 18px;
+}
+
+#labelPasswordLI {
+    position: relative;
+    right: 22px;
+}
+
+#password-logIn {
+    position: relative;
+    left: 21.5px;
+}
+
+#btnLogIn {
+    margin-top: 30px;
+    width: 165px;
+    height: 43px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: #DDF093;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: "Inknut Antiqua";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#dancing-walking-IDontHaveAnAccount {
+    font-size: 30px;
+    font-family: Katibeh;
+    font-style: normal;
+    line-height: normal;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 12px;
+}
+
+#register {
     color: #CE4760;
 }

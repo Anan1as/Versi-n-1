@@ -8,42 +8,34 @@
     <link rel="stylesheet" href="../CSS/stylesheet.css">
     <script src="../JS/script.js" defer></script>
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
-    <title>Registro - Writer's Work</title>
+    <title>Iniciar sesión - Writer's Work</title>
 </head>
-<body id="registro">
-    <img src="../Img/Logo Mediano - Light.png" alt="Writer's work medium boi" id="logoIngreso">
-    <div id="contenedor">
+<body id="inicioSesion">
+    <img src="../Img/Logo Mediano - Light.png" alt="Writer's work medium boi" class="logoIngreso">
+    <div class="contenedor">
         <div class="box-logo">
             <img src="../Img/Titulo simple - Light.png" alt="Here goes a name (doesn't it?)" class="name-enter">
         </div>
-        <div id="register-box">
+        <div id="inicioSesion-box">
             <div id="username-box">
-                <label id="labelUsernameR" class="labels">Username</label>
-                <input type="text" class="input" id="username-register" placeholder="Username here"><br>
+                <label id="labelUsernameLI" class="labels">Username</label>
+                <input type="text" class="input" id="username-LogIn" placeholder="Username here"><br>
             </div>
             <div id="password-box">
-                <label id="labelPasswordR" class="labels">Password</label>
-                <input type="text" class="input" id="password-register" placeholder="Password here"><br>
-                <input type="text" class="input" id="password-verification" placeholder="Write your password again"><br>
+                <label id="labelPasswordLI" class="labels">Password</label>
+                <input type="text" class="input" id="password-logIn" placeholder="Password here"><br>
             </div>
-            <div id="email-box">
-                <label id="labelEmail" class="labels">Email</label>
-                <input type="text" class="input" id="email-register" placeholder="Email here"><br><br>
-            </div>
-            <button id="btnRegister">¡Sign up!</button>
+            <button id="btnLogIn">¡Log In!</button>
             <div class="intermedio">
-                <img src="../Img/interlude.png" alt="It was easy with the picture unu" id="interlude">
+                <img src="../Img/interlude.png" alt="It was easy with the picture unu" class="interlude">
             </div>
             <button class="google-box">
                 <img src="../Img/Google.png" alt="Google logo :p" class="logo-google">
-                <label class="text-google">Sign up with Google</label>
+                <label class="text-google">Log in with Google</label>
             </button>
-            <div id="terms-and-services-box">
-                <p id="register-conditions">If you register, you are accepting our <span id="conditions">terms and conditions</span>.</p>
-            </div>
         </div>
-        <div id="dancing-walking-IAlreadyHaveAnAccount">
-            <p id="account">You already have an account? <span id="login">Log in</span></p>
+        <div id="dancing-walking-IDontHaveAnAccount">
+            <p class="account">You don't have an account? <span id="register">Sign up</span></p>
         </div>
     </div>
 </body>
