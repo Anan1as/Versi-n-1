@@ -1,0 +1,227 @@
+/*------------------------------ Index css-------------------------*/
+#index {
+    background: linear-gradient(180deg, #B0DEB5 52%, rgba(74, 95, 77, 0.00) 100%);
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-family: Katibeh;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#ingreso {
+    width: 1012.126px;
+    height: 4px;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: #600C0C;
+}
+
+#imgingreso {
+    width: 1060.621px;
+    height: 291.64px;
+}
+
+#enter {
+    width: 249px;
+    height: 45px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px 2px #CE4760;
+    background: #F6D0B1;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#registro {
+    background: #638475;
+}
+
+#logoIngreso {
+    width: 135px;
+    height: 135px;
+}
+
+
+/*--------------------------------- Register page ---------------------------------*/
+#contenedor {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 1440px;
+    height: 824px;
+}
+
+.box-logo {
+    width: 519px;
+    height: 64px;
+    flex-shrink: 0;
+    background: #90E39A;
+    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.25);
+    margin-bottom: 15px;
+}
+
+#register-box {
+    width: 519px;
+    height: 538px;
+    flex-shrink: 0;
+    background: #F6D0B1;
+    box-shadow: 4px 4px 4px 2px #CE4760;
+}
+
+.labels {
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Inknut Antiqua";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 32px;
+}
+
+.input {
+    width: 302px;
+    height: 26px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: #D2D2D2;
+    flex-shrink: 0;
+}
+
+#labelUsernameR {
+    position: relative;
+    right: 20px;
+}
+
+#username-register {
+    position: relative;
+    left: 18px;
+}
+
+#labelPasswordR {
+    position: relative;
+    right: 20px;
+}
+
+#password-register {
+    position: relative;
+    left: 20px;
+}
+
+#password-verification {
+    position: relative;
+    left: 68px
+}
+
+#labelEmail {
+    position: relative;
+    right: 38px;
+}
+
+#email-register {
+    position: relative;
+    left: 38px;
+}
+
+#btnRegister {
+    width: 165px;
+    height: 43px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: #DDF093;
+}
+
+#password-register {
+    margin-bottom: 10px;
+}
+
+#interlude {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 500px;
+    height: auto;
+}
+
+.google-box {
+    width: 384px;
+    height: 75px;
+    background: #A93232;
+    flex-shrink: 0;
+    margin-bottom: 20px;
+}
+
+.logo-google {
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+}
+
+.text-google {
+    width: 306px;
+    height: 46px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Katibeh;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+#terms-and-services-box {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#register-conditions {
+    width: 410px;
+    height: 30px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: "Inknut Antiqua";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#conditions {
+    color: #CE4760;
+    font-family: "Inknut Antiqua";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#dancing-walking-IAlreadyHaveAnAccount{
+    font-size: 30px;
+    font-family: Katibeh;
+    font-style: normal;
+    line-height: normal;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 10px;
+}
+
+#account {
+    color: #000;
+}
+
+#login {
+    color: #CE4760;
+}
