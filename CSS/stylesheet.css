@@ -1,4 +1,4 @@
-/*------------------------------ Index css-------------------------*/
+/*------------------------------> Index css <-------------------------*/
 #index {
     background: linear-gradient(180deg, #B0DEB5 52%, rgba(74, 95, 77, 0.00) 100%);
     display: flex;
@@ -42,7 +42,7 @@
     line-height: normal;
 }
 
-/*--------------------------------- Register page ---------------------------------*/
+/*---------------------------------> Register page <---------------------------------*/
 
 #registro {
     background: #638475;
@@ -223,7 +223,7 @@
     color: #CE4760;
 }
 
-/*---------------------Log in page---------------------*/
+/*---------------------> Log in page <---------------------*/
 
 #inicioSesion {
     background: #638475;
@@ -288,7 +288,7 @@
     color: #CE4760;
 }
 
-/*--------------------Dashboard page---------------------*/
+/*--------------------> Dashboard page <---------------------*/
 
 .light-theme {
     background: #638475;
@@ -453,6 +453,7 @@
 
 footer {
     display: flex;
+    margin-top: auto;
     height: 78px;
     background: #DDF093;
     align-items: end;
@@ -493,3 +494,227 @@ footer {
     background-color: #DDF093;
 }  
 
+/*--------------------> Perfil page <---------------------*/
+
+#banner-profile {
+    height: 335px;
+    background: #90E39A;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#banner-profile-shortie {
+    height: 135px;
+    background: #90E39A;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/*Profile banner*/
+#internal-content-box {
+    height: 265px;
+    width: auto;
+    background-image: url("../Img/Fondo1.png");
+    display: flex;
+}
+
+#internal-content-box-shortie {
+    height: 105px;
+    width: auto;
+    display: flex;
+}
+
+.confi-profile {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 100%;
+}
+
+#profilePicture {
+    width: 226px;
+    height: 226px;
+    border-radius: 100%;
+    margin-top: 20px;
+    border: #000 solid 4px;
+}
+
+#welcome-text-profile {
+    font-size: 50px;
+    color: #FFF;
+    height: 82px;
+    background: rgba(0, 0, 0, 0.8);
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 28px;
+    margin-top: 34px;
+    margin-right: 420px;
+    text-align: center;
+}
+
+#username-text-profile {
+    font-size: 50px;
+    color: #000;
+    height: 82px;
+    background: rgba(255, 255, 255, 0.8);
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 420px;
+    margin-top: 34px;
+    margin-right: 28px;
+    text-align: center;
+}
+
+#username-text-profile-shortie {
+    font-size: 50px;
+    color: #000;
+    height: 82px;
+    background: rgba(255, 255, 255, 0.8);
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 14px;
+    text-align: center;
+}
+
+.close-menu-profile {
+    margin-top: 12px;
+}
+
+/*Profile content*/
+
+#cajones-profile {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cajon-profile {
+    background: #F6D0B1;
+    box-shadow: #CE4760 4px 4px 4px 2px;
+    width: 500px;
+    height: 660px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.title-profile-cajones {
+    font-size: 60px;
+    margin-top: 40px
+}
+
+.linea-cajon-profile {
+    margin-left: 30px;
+    width: 440px;
+    height: 1px;
+    background-color: #000;
+}
+
+.tag-profile {
+    margin-top: 30px;
+    width: 400px;
+    height: 80px;
+    background-color: #CE4760;
+}
+
+.tag-link-profile {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.tag-name-profile {
+    font-size: 30px;
+    margin-top: 16px;
+    margin-left: 16px;
+    color: #000;
+}
+
+.tag-works-avaible {
+    font-size: 25px;
+    margin-top: 22px;
+    margin-right: 16px;
+    color: #600C0C;
+}
+
+.internal-box-tags-work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+}
+
+.work-profile {
+    margin-top: 30px;
+    width: 400px;
+    height: 80px;
+    background-color: #CE4760;
+}
+
+.work-link-profile {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.work-name-profile {
+    font-size: 30px;
+    margin-top: 16px;
+    margin-left: 16px;
+    color: #000;
+}
+
+.work-process-avaible {
+    font-size: 25px;
+    margin-top: 22px;
+    margin-right: 16px;
+    color: #600C0C;
+}
+
+.container-opciones{
+    display: flex;
+    justify-content: center;
+}
+
+#opciones-profile {
+    background: #F6D0B1;
+    box-shadow: #CE4760 4px 4px 4px 2px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 1180px;
+    height: 260px;
+    display: flex;
+    font-size: 60px;
+}
+
+#work-opciones {
+    display: flex;
+    justify-content: space-around;
+}
+
+#tag-opciones {
+    display: flex;
+    justify-content: space-around;
+}
+
+.boton-profile-opciones {
+    margin-left: 146px;
+    text-decoration: none;
+    color: #000;
+    margin-top: 28px;
+}
+
+.linea-separadora-opciones {
+    width: 1px;
+    height: 240px;
+    background: #000;
+    position: relative;
+    left: 56px;
+    top: 10px;
+}
