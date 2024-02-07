@@ -75,7 +75,6 @@
 #register-box {
     width: 519px;
     height: 538px;
-    flex-shrink: 0;
     background: #F6D0B1;
     box-shadow: 4px 4px 4px 2px #CE4760;
 }
