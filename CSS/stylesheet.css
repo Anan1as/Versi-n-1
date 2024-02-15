@@ -329,6 +329,12 @@
     margin-right: 10px;
 }
 
+.imgPuerta {
+    width: 30px;
+    height: 30px;
+    margin-left: 50px;
+}
+
 .imgProfileNav {
     width: 44px;
     height: 44px;
@@ -716,4 +722,135 @@ footer {
     position: relative;
     left: 56px;
     top: 10px;
+}
+
+/*--------------------> Work page <---------------------*/
+
+#works-content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+#box-tags-input {
+    margin-bottom: 40px;
+}
+
+#btnWorks {
+    width: 265px;
+    height: 70px;
+    background: #90E39A;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+#cajon-tags-work {
+    background: #F6D0B1;
+    box-shadow: #CE4760 4px 4px 4px 2px;
+    width: 265px;
+    height: 400px;
+    margin-top: 10px;
+    text-align: center;
+    overflow: auto;
+}
+
+#tags-work-title {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+#input-search-works {
+    width: 205px;
+    height: 20px;
+}
+
+.linea-cajon-works {
+    margin-left: 30px;
+    width: 205px;
+    height: 1px;
+    background-color: #000;
+}
+
+#cajon-tags-work-selectable {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tag-works {
+    background-color: #CE4760;
+    width: 205px;
+    height: 40px;
+    margin-top: 10px;
+    padding-top: 5px;
+    color: #000;
+    text-decoration: none;
+}
+
+#search-works {
+    width: 280px;
+    height: 52px;
+}
+
+#banner-up-works {
+    display: flex;
+}
+
+#tags-selected-box {
+    display: flex;
+    margin-bottom: 10px;
+    width: 600px;
+    height: 55px;
+    overflow-x: auto;
+    white-space: nowrap;
+    margin-left: 6px;
+}
+
+.tags-selected {
+    text-align: center;
+    background-color: #A93232;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 20px;
+    width: 200px;
+    margin-left: 5px;
+}
+
+.tags-selected p {
+    color: #000;
+    margin-top: 12px;
+}
+
+#container-works {
+    overflow: auto;
+    width: 900px;
+    height: 490px;
+    margin-bottom: 20px;
+}
+
+.container-work {
+    display: flex;
+    justify-content: space-around;
+    background-color: #F6D0B1;
+    box-shadow: #CE4760 4px 4px 4px 2px;
+    height: 78px;
+    width: 880px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+.title-works {
+    margin-top: 15px;
+    font-size: 30px;
+}
+
+.status-works {
+    margin-top: 25px;
+    font-size: 20px;
+    color: #CE4760;
+}
+
+.color-works {
+    margin-top: 15px;
 }
