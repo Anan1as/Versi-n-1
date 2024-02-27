@@ -1070,3 +1070,219 @@ footer {
     margin-top: 10px;
     color: #2c0404;
 }
+
+
+/*--------------------> Add works page <---------------------*/
+
+#addwork-content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#cajon-addinfo-addwork {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 700px;
+    background-color: #F6D0B1;
+    box-shadow: #CE4760 4px 4px 4px 2px;
+}
+
+#title-addinfo-addwork {
+    font-size: 35px;
+    margin-top: 20px;
+    color: #600C0C;
+}
+
+#line-separated-addwork {
+    width: 360px;
+    background-color: black;
+    border: #000 solid 1px;
+    margin-bottom: 30px;
+}
+
+.subtitle-addinfo-addwork {
+    font-size: 25px;
+    color: #600C0C;
+}
+
+#name-addinfo-addwork {
+    display: flex;
+}
+
+#subtitle-name-addinfo-addwork {
+    margin-right: 26px;
+}
+
+#nameWork {
+    width: 260px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+#descriptionWork {
+    width: 348px;
+    height: 140px;
+    margin-bottom: 20px;
+    resize: none;
+    padding: 5px;
+}
+
+#listWork {
+    width: 348px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+#content-list-addinfo-addwork {
+    overflow: auto;
+    width: 348px;
+    height: 190px;
+}
+
+.content-lista-element-addinfo-addwork {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    background-color: #CE4760;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.name-list-addinfo-addwork {
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 14px;
+    color: #000;
+}
+
+.trash-icon-addinfo-addwork {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-top: 14px;
+}
+
+#cajon-addtag-addwork {
+    width: 700px;
+    height: 160px;
+    background-color: #F6D0B1;
+    box-shadow: #CE4760 4px 4px 4px 2px;
+}
+
+#content-title-addtag-addwork {
+    display: flex;
+    justify-content: space-between;
+}
+
+#title-addtag-addwork {
+    font-size: 30px;
+    color: #600C0C;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#searchTagWork {
+    width: 200px;
+    height: 30px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+#line-separated-addtags-addwork {
+    width: 664px;
+    background-color: black;
+    border: #000 solid 1px;
+    margin-left: 20px;
+}
+
+#content-lista-tags-addtag-addwork {
+    display: flex;
+    white-space: nowrap;
+    overflow-x: auto;
+    width: 664px;
+    height: 80px;
+    margin-left: 20px;
+}
+
+.link-tag-addtag-addwork {
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#new-tag-addtag-addwork {
+    width: 200px;
+    height: 40px;
+    background-color: #dd8897;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-tag-addtag-addwork {
+    width: 200px;
+    height: 40px;
+    background-color: #CE4760;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cajon-addtimeanddate-addwork {
+    width: 600px;
+    height: 160px;
+    margin-top: 60px;
+    background-color: #F6D0B1;
+    box-shadow: #CE4760 4px 4px 4px 2px;
+}
+
+#title-addtimeanddate-addwork {
+    font-size: 30px;
+    color: #600C0C;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+#line-separated-addtimedate-addwork {
+    width: 560px;
+    background-color: black;
+    border: #000 solid 1px;
+    margin-left: 20px;
+}
+
+#content-adddateandtime-addwork {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#dateWork {
+    width: 200px;
+    height: 40px;
+}
+
+#timeWork {
+    width: 200px;
+    height: 40px;
+}
+
+.button-addwork {
+    width: 200px;
+    height: 50px;
+    background-color: #90E39A;
+    font-size: 20px;
+    margin-top: 120px;
+    margin-left: 22px;
+}
