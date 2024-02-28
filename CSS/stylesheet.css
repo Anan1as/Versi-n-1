@@ -480,6 +480,16 @@ footer {
     margin-left: 6px;
 }
 
+.cajon-documentation-footer {
+    margin-bottom: 25px;
+}
+
+.link-documentation-footer{
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+
 .selectsFooter {
     display: flex;
     margin-bottom: 25px;
