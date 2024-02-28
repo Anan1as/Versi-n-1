@@ -1416,3 +1416,172 @@ footer {
     font-size: 15px;
     color: #2c2c2c;
 }
+
+
+/*--------------------> Configuration page <---------------------*/
+
+#configuration-content {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#cajon-colorCoding-OtherOptions-configuration {
+    display: flex;
+    justify-content: space-around;
+}
+
+#cajon-colorCodes-configuration {
+    width: 700px;
+    height: 240px;
+    background-color: #F6D0B1;
+    box-shadow: #CE4760 4px 4px 4px 2px;
+}
+
+#title-colorCodes-configuration {
+    font-size: 35px;
+    color: #600C0C;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#cajon-inputs-ColorCoding-configuration{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cajon-inputColor-ColorCoding-configuration {
+    display: flex;
+    flex-direction: column;
+}
+
+.colorCodesInput {
+    width: 70px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+#cajon-preferences-accountOption-configuration {
+    width: 400px;
+    height: 350px;
+    background-color: #F6D0B1;
+    box-shadow: #CE4760 4px 4px 4px 2px;
+}
+
+.content-preferences-accountPreferences-configuration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-preferences-accountOptions-configuration {
+    font-size: 35px;
+    color: #600C0C;
+    margin-top: 20px;
+}
+
+#emailNotificationLabel-configuration {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+#line-separated-preferences-accountOptions {
+    width: 360px;
+    background-color: black;
+    border: #000 solid 1px;
+    margin-left: 20px;
+}
+
+#dangerAdvise-configuration {
+    font-size: 20px;
+    color: #9b1414;
+}
+
+#contenido-botones-configuration {
+    display: flex;
+    justify-content: space-around;
+    width: 360px;
+}
+
+.btnCodesInput {
+    background-color: #90E39A;
+}
+
+#btnModifie {
+    background-color: #e6ab0b;
+    width: 160px;
+    height: 40px;
+}
+
+#btnDelete {
+    color: white;
+    background-color: #6d1313;
+    width: 140px;
+    height: 40px;
+}
+
+#cajon-contactMe-configuration {
+    width: 700px;
+    height: 440px;
+    background-color: #F6D0B1;
+    box-shadow: #CE4760 4px 4px 4px 2px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title-contactMe-configuration {
+    font-size: 35px;
+    color: #600C0C;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#text-contactMe-configuration {
+    font-size: 20px;
+    text-align: center;
+}
+
+#content-contactMe-configuration {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#data-contactMe-configuration {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#select-contactMe-configuration {
+    width: 200px;
+    height: 30px;
+    background-color: #90E39A;
+}
+
+#select-contactMe-configuration:focus {
+    border-color: #90E39A;
+    background-color: #DDF093;
+}  
+
+#inputEmail-configuration {
+    width: 440px;
+    height: 30px;
+}
+
+#textArea-contactMe-configuration {
+    height: 200px;
+    resize: none;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#btnSend-configuration {
+    width: 100px;
+    height: 40px;
+    background-color: #90E39A;
+    font-size: 20px;
+}
