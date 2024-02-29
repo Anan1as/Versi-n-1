@@ -1,4 +1,4 @@
-let btnEnter = document.getElementById("enter");
+/*let btnEnter = document.getElementById("enter");
 
 btnEnter.addEventListener("click", function() {
     localStorage.getItem("id");
@@ -8,4 +8,10 @@ btnEnter.addEventListener("click", function() {
     } else {
         window.location.href = "./HTML/inicioSesion.html";
     };
+});*/
+
+let btnEnter = document.getElementById("enter");
+
+btnEnter.addEventListener("click", function() {
+    window.location.href = "./HTML/dashboard.html";
 });

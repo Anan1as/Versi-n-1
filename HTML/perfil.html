@@ -13,16 +13,16 @@
 <body class="light-theme">
     <nav class="menuNav">
         <ul>
-            <li><a href="./dashboard.html"><img class="imgLogoMediano" src="../Img/Logo Mediano - Light.png" alt="Handsome logo"></a></li>
+            <li><a href="./dashboard.html"><img id="logo-header" class="imgLogoMediano" src="" alt="Handsome logo"></a></li>
             <li><a class="txtNav" href="./random.html">Random</a></li>
             <li><a class="txtNav" href="./works.html">Works</a></li>
             <div class="navRightPart">
-                <li><a class="txtNav" href="./configuration.html"><img class="imgTuerca" src="../Img/Tuerca.png" alt="Tuerca bonita"></a></li>
+                <li><a class="txtNav" href="./configuration.html"><img id="tuerca-header" class="imgTuerca" src="" alt="Tuerca bonita"></a></li>
                 <li class="profileNav">
                     <a href="./perfil.html"><img class="imgProfileNav" src="../Img/Temporal profile picture.jpg" alt="Hambster"></a>
                     <a class="txtNav" href="./perfil.html">Example person</a>
                 </li>
-                <li><a class="txtNav" href="#"><img class="imgPuerta" src="../Img/Exit.png" alt="Puerta bonita"></a></li>
+                <li><a class="txtNav" href="#"><img id="puerta-header" class="imgPuerta" src="" alt="Puerta bonita"></a></li>
             </div>
         </ul>
     </nav>
@@ -127,7 +127,7 @@
     <footer>
         <div class="contenidoFooter">
             <div class="copyFooter">
-                <img class="tituloSimpleFooter" src="../Img/Titulo simple - Light - Black.png" alt="Cute title">
+                <img id="logo-footer" class="tituloSimpleFooter" src="" alt="Cute title">
                 <p class="nameFooter">Made by Ananías</p>
             </div>
         </div>
@@ -138,17 +138,17 @@
         <div class="selectsFooter">
             <div class="language">
                 <select class="selectionFooter">
-                    <option>Language</option>
-                    <option>English</option>
-                    <option>Coming soon, Spanish</option>
+                    <option value="predeterminated" disabled selected>Language</option>
+                    <option value="english">English</option>
+                    <option value="spanish" disabled>Coming soon, Spanish</option>
                 </select>
             </div>
             <div class="theme">
-                <select class="selectionFooter">
-                    <option>Theme</option>
-                    <option>Light</option>
-                    <option>Coming soon, Dark</option>
-                    <option>Coming soon, Cheesecake</option>
+                <select id="selectTheme" class="selectionFooter">
+                    <option value="predeterminated" disabled selected>Theme</option>
+                    <option value="light">Light</option>
+                    <option value="dark">Dark Velvet</option>
+                    <option value="cheesecake" disabled>Coming soon, Cheesecake</option>
                 </select>
             </div>
         </div>
