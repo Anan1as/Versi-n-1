@@ -294,6 +294,7 @@
     background: #638475;
     font-family: Katibeh;
     font-style: normal;
+    transition: all 0.5s;
 }
 
 .menuNav {
@@ -1609,31 +1610,23 @@ footer {
     background: #220101;
     font-family: Katibeh;
     font-style: normal;
+    transition: all 0.5s;
 }
 
 .dark-theme .menuNav {
     background: #49392C;
-    height: 77px;
 }
 
 .dark-theme .txtNav {
-    font-size: 25px;
-    font-weight: 400;
-    text-decoration: none;
     color: #ffffff;
 }
 
 .dark-theme #banner-welcum {
-    height: 136px;
     background: #77625C;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .dark-theme #text-welcum {
-    text-align: center;
-    padding-top: 25px;
-    font-size: 50px;
-    font-weight: 400;
     color: #ffffff;
 }
 
@@ -1642,79 +1635,45 @@ footer {
 }
 
 .dark-theme .side-menu-box {
-    width: 42px;
-    height: 273px;
     background: #A48880;
     box-shadow: 4px 4px 6px 0px #750f3f;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 130px;
 }
 
 /*Clases del menú lateral abierto*/
 .dark-theme .side-menu-box-extend {
-    width: 181px;
-    height: 273px;
     background: #A48880;
     box-shadow: 4px 4px 6px 0px #750f3f;
-    margin-top: 100px;
-    margin-bottom: 100px;
 }
 
 .dark-theme .contenido {
-    display: flex;
     color: #ffffff;
-    text-align: center;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-size: 35px;
-    flex-direction: column;
-    display: none;
 }
 
 .dark-theme .text-menu-work {
-    text-decoration: none;
     color: #ffffff;
 }
 
 .dark-theme .text-menu-tags {
-    text-decoration: none;
     color: #ffffff;
 }
 /*Clases del menú lateral abierto*/
 
 .dark-theme .work-box {
-    width: 931px;
-    height: 76px;
     background: #A48880;
     box-shadow: 4px 4px 4px 2px #750f3f;
-    margin-left: 45px;
-    margin-top: 30px;
-    display: flex;
-    justify-content: space-between;
 }
 
 .dark-theme .text-work-dashboard {
-    font-size: 30px;
     color: #ffffff;
-    display: flex;
-    align-items: center;
-    margin-left: 20px;
 }
 
 .dark-theme .text-procces-dashboard {
-    font-size: 25px;
     color: #750f3f;
-    margin-right: 16px;
 }
 
 .dark-theme footer {
-    display: flex;
-    margin-top: auto;
-    height: 78px;
     background: #49392C;
-    align-items: end;
-    padding-top: 40px;
-    justify-content: space-between;
 }
 
 .dark-theme .nameFooter {
@@ -1722,9 +1681,7 @@ footer {
 }
 
 .dark-theme .link-documentation-footer{
-    text-decoration: none;
     color: #ffffff;
-    font-size: 16px;
 }
 
 .dark-theme .selectionFooter {
@@ -2102,4 +2059,467 @@ footer {
 
 .dark-theme #btnSend-configuration {
     background-color: #77625C;
+}
+
+
+/*------------------------------------------> Cheesecake mode <------------------------------------------------*/
+
+/*--------------------> Index page <---------------------*/
+/*--------------------> Register page <---------------------*/
+/*--------------------> Log in page <---------------------*/
+
+/*--------------------> Dashboard page <---------------------*/
+.cheesecake-theme {
+    background: #725752;
+    font-family: Katibeh;
+    font-style: normal;
+    transition: all 0.5s;
+}
+
+.cheesecake-theme .menuNav {
+    background: #878E88;
+}
+
+.cheesecake-theme .txtNav {
+    color: #000;
+}
+
+.cheesecake-theme #banner-welcum {
+    background: #96C0B7;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.cheesecake-theme #text-welcum {
+    color: #000;
+}
+
+.cheesecake-theme #name-welcum {
+    color: #FEF6C9;
+}
+
+.cheesecake-theme .side-menu-box {
+    background: #848f76;
+    box-shadow: 4px 4px 6px 0px #FEF6C9;
+}
+
+/*Clases del menú lateral abierto*/
+.cheesecake-theme .side-menu-box-extend {
+    background: #848f76;
+    box-shadow: 4px 4px 6px 0px #FEF6C9;
+}
+
+.cheesecake-theme .contenido {
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.cheesecake-theme .text-menu-work {
+    color: #000;
+}
+
+.cheesecake-theme .text-menu-tags {
+    color: #000;
+}
+/*Clases del menú lateral abierto*/
+
+.cheesecake-theme .work-box {
+    background: #848f76;
+    box-shadow: 4px 4px 4px 2px #FEF6C9;
+}
+
+.cheesecake-theme .text-work-dashboard {
+    color: #000;
+}
+
+.cheesecake-theme .text-procces-dashboard {
+    color: #FEF6C9;
+}
+
+.cheesecake-theme footer {
+    background: #878E88;
+}
+
+.cheesecake-theme .nameFooter {
+    color: #000;
+}
+
+.cheesecake-theme .link-documentation-footer{
+    color: #000;
+}
+
+.cheesecake-theme .selectionFooter {
+    background: #96C0B7;
+}
+
+.cheesecake-theme .selectionFooter:focus {
+    border-color: #96C0B7;
+    background-color: #878E88;
+}  
+
+/*--------------------> Perfil page <---------------------*/
+.cheesecake-theme #banner-profile {
+    background: #96C0B7;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.cheesecake-theme #banner-profile-shortie {
+    background: #96C0B7;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+/*Profile banner*/
+.cheesecake-theme .confi-profile {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.cheesecake-theme #profilePicture {
+    border: #000 solid 4px;
+}
+
+.cheesecake-theme #welcome-text-profile {
+    color: #FFF;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.cheesecake-theme #username-text-profile {
+    color: #000;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.cheesecake-theme #username-text-profile-shortie {
+    color: #000;
+    background: rgba(255, 255, 255, 0.8);
+}
+/*Profile content*/
+
+.cheesecake-theme .cajon-profile {
+    background: #848f76;
+    box-shadow: #FEF6C9 4px 4px 4px 2px;
+}
+
+.cheesecake-theme .linea-cajon-profile {
+    background-color: #000;
+}
+
+.cheesecake-theme .tag-profile {
+    background-color: #FEF6C9;
+}
+
+.cheesecake-theme .tag-name-profile {
+    color: #000;
+}
+
+.cheesecake-theme .tag-works-avaible {
+    color: #4e86ce;
+}
+
+.cheesecake-theme .work-profile {
+    background-color: #FEF6C9;
+}
+
+.cheesecake-theme .work-name-profile {
+    color: #000;
+}
+
+.cheesecake-theme .work-process-avaible {
+    color: #4e86ce;
+}
+
+.cheesecake-theme #opciones-profile {
+    background: #848f76;
+    box-shadow: #FEF6C9 4px 4px 4px 2px;
+}
+
+.cheesecake-theme .boton-profile-opciones {
+    color: #000;
+}
+
+.cheesecake-theme .linea-separadora-opciones {
+    background: #000;
+}
+
+/*--------------------> Work page <---------------------*/
+.cheesecake-theme #btnWorks {
+    background: #96C0B7;
+}
+
+.cheesecake-theme #cajon-tags-work {
+    background: #848f76;
+    box-shadow: #FEF6C9 4px 4px 4px 2px;
+}
+
+.cheesecake-theme .linea-cajon-works {
+    background-color: #000;
+}
+
+.cheesecake-theme .tag-works {
+    background-color: #FEF6C9;
+    color: #000;
+}
+
+.cheesecake-theme .tags-selected {
+    background-color: #637f86;
+}
+
+.cheesecake-theme .tags-selected p {
+    color: #000;
+}
+
+.cheesecake-theme .container-work {
+    background-color: #848f76;
+    box-shadow: #FEF6C9 4px 4px 4px 2px;
+    color: #000;
+}
+
+.cheesecake-theme .status-works {
+    color: #FEF6C9;
+}
+
+
+/*--------------------> Random page <---------------------*/
+.cheesecake-theme #btnRandom {
+    background: #96C0B7;
+}
+
+.cheesecake-theme #cajon-tags-random {
+    background: #848f76;
+    box-shadow: #FEF6C9 4px 4px 4px 2px;
+}
+
+.cheesecake-theme #container-random {
+    background-color: #848f76;
+    box-shadow: #FEF6C9 4px 4px 4px 2px;
+}
+
+/*--------------------> See works page <---------------------*/
+.cheesecake-theme #banner-seeworks {
+    background-color: #96C0B7;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+.cheesecake-theme #seeworks-title {
+    color: #224068;
+}
+
+.cheesecake-theme #seeworks-content {
+    color: #000;
+}
+
+.cheesecake-theme #btnEdit-seeworks {
+    background: #f2fd8b;
+}
+
+.cheesecake-theme #btnDelete-seeworks {
+    background: #ee7575;
+}
+
+.cheesecake-theme #lista-seeworks {
+    background-color: #848f76;
+    box-shadow: #FEF6C9 4px 4px 4px 2px;
+}
+
+.cheesecake-theme .titulo-seeworks {
+    color: #224068;
+}
+
+.cheesecake-theme #tags-seeworks {
+    background-color: #848f76;
+    box-shadow: #FEF6C9 4px 4px 4px 2px;
+}
+
+.cheesecake-theme #state-seeworks {
+    background-color: #848f76;
+    box-shadow: #FEF6C9 4px 4px 4px 2px;
+}
+
+.cheesecake-theme .title-proccess-seeworks {
+    color: #2c0404;
+}
+
+/*--------------------> Add works page <---------------------*/
+.cheesecake-theme #cajon-addinfo-addwork {
+    background-color: #848f76;
+    box-shadow: #FEF6C9 4px 4px 4px 2px;
+}
+
+.cheesecake-theme #title-addinfo-addwork {
+    color: #224068;
+}
+
+.cheesecake-theme #line-separated-addwork {
+    background-color: black;
+    border: #000 solid 1px;
+}
+
+.cheesecake-theme .subtitle-addinfo-addwork {
+    color: #224068;
+}
+
+.cheesecake-theme .content-lista-element-addinfo-addwork {
+    background-color: #FEF6C9;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.cheesecake-theme .name-list-addinfo-addwork {
+    color: #000;
+}
+
+.cheesecake-theme #cajon-addtag-addwork {
+    background-color: #848f76;
+    box-shadow: #FEF6C9 4px 4px 4px 2px;
+}
+
+.cheesecake-theme #title-addtag-addwork {
+    color: #224068;
+}
+
+.cheesecake-theme #line-separated-addtags-addwork {
+    background-color: black;
+    border: #000 solid 1px;
+}
+
+.cheesecake-theme .link-tag-addtag-addwork {
+    color: #000;
+}
+
+.cheesecake-theme #new-tag-addtag-addwork {
+    background-color: #dd8897;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.cheesecake-theme .text-tag-addtag-addwork {
+    background-color: #FEF6C9;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.cheesecake-theme #cajon-addtimeanddate-addwork {
+    background-color: #848f76;
+    box-shadow: #FEF6C9 4px 4px 4px 2px;
+}
+
+.cheesecake-theme #title-addtimeanddate-addwork {
+    color: #224068;
+}
+
+.cheesecake-theme #line-separated-addtimedate-addwork {
+    background-color: black;
+    border: #000 solid 1px;
+}
+
+.cheesecake-theme .button-addwork {
+    background-color: #96C0B7;
+}
+
+/*--------------------> Add tags page <---------------------*/
+.cheesecake-theme #content-addinformation-addtag {
+    background-color: #848f76;
+    box-shadow: #FEF6C9 4px 4px 4px 2px;
+}
+
+.cheesecake-theme #title-addinformation-addtag {
+    color: #224068;
+}
+
+.cheesecake-theme #line-separated-addtag {
+    background-color: black;
+    border: #000 solid 1px;
+}
+
+.cheesecake-theme #subtitle-addinformation-addtag {
+    color: #072038;
+}
+
+.cheesecake-theme .button-addtag {
+    background-color: #96C0B7;
+}
+
+.cheesecake-theme #cajon-addwork-addtag {
+    background-color: #848f76;
+    box-shadow: #FEF6C9 4px 4px 4px 2px;
+}
+
+.cheesecake-theme #title-addwork-addtag {
+    color: #224068;
+}
+
+.cheesecake-theme #line-separated-addwork-addtag {
+    background-color: black;
+    border: #000 solid 1px;
+}
+
+.cheesecake-theme .box-addwork-addtag {
+    background-color: #FEF6C9;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.cheesecake-theme .title-work-addwork-addtag {
+    color: #000000;
+}
+
+.cheesecake-theme .tags-addwork-addtag {
+    color: #4d4d4d;
+}
+
+/*--------------------> Configuration page <---------------------*/
+.cheesecake-theme #cajon-colorCodes-configuration {
+    background-color: #848f76;
+    box-shadow: #FEF6C9 4px 4px 4px 2px;
+}
+
+.cheesecake-theme #title-colorCodes-configuration {
+    color: #224068;
+}
+
+.cheesecake-theme #cajon-preferences-accountOption-configuration {
+    background-color: #848f76;
+    box-shadow: #FEF6C9 4px 4px 4px 2px;
+}
+
+.cheesecake-theme .title-preferences-accountOptions-configuration {
+    color: #224068;
+}
+
+.cheesecake-theme #line-separated-preferences-accountOptions {
+    background-color: black;
+    border: #000 solid 1px;
+}
+
+.cheesecake-theme #dangerAdvise-configuration {
+    color: #9b1414;
+}
+
+.cheesecake-theme .btnCodesInput {
+    background-color: #96C0B7;
+}
+
+.cheesecake-theme #btnModifie {
+    background-color: #e6ab0b;
+}
+
+.cheesecake-theme #btnDelete {
+    color: white;
+    background-color: #6d1313;
+}
+
+.cheesecake-theme #cajon-contactMe-configuration {
+    background-color: #848f76;
+    box-shadow: #FEF6C9 4px 4px 4px 2px;
+}
+
+.cheesecake-theme #title-contactMe-configuration {
+    color: #224068;
+}
+
+.cheesecake-theme #select-contactMe-configuration {
+    background-color: #96C0B7;
+}
+
+.cheesecake-theme #select-contactMe-configuration:focus {
+    border-color: #96C0B7;
+    background-color: #878E88;
+}  
+
+.cheesecake-theme #btnSend-configuration {
+    background-color: #96C0B7;
 }

@@ -43,7 +43,15 @@ selectTheme.addEventListener("change", () => {
         tuercaHeader.src = "../Img/Tuerca.png";
         puertaHeader.src = "../Img/Exit.png";
 
-    };
+    } else if (selectTheme.value == "cheesecake") {
+        localStorage.setItem('Theme', selectTheme.value);
+        body.className = "cheesecake-theme";
+        logoHeader.src = "../Img/Logo Mediano - Light.png";
+        logoFooter.src = "../Img/Titulo simple - Light - Black.png";
+        tuercaHeader.src = "../Img/Tuerca.png";
+        puertaHeader.src = "../Img/Exit.png";
+
+    }
 });
 
 //Al entrar a la página.
@@ -58,9 +66,8 @@ if (theme == null) {
     logoFooter.src = "../Img/Titulo simple - Light - Black.png";
     tuercaHeader.src = "../Img/Tuerca.png";
     puertaHeader.src = "../Img/Exit.png";
-}
 
-if (theme == "dark") {
+}else if (theme == "dark") {
     body.className = "dark-theme";
     logoHeader.src = "../Img/Logo Mediano - Dark.png";
     logoFooter.src = "../Img/Titulo simple - Dark.png";
@@ -69,6 +76,13 @@ if (theme == "dark") {
 
 } else if (theme == "light") {
     body.className = "light-theme";
+    logoHeader.src = "../Img/Logo Mediano - Light.png";
+    logoFooter.src = "../Img/Titulo simple - Light - Black.png";
+    tuercaHeader.src = "../Img/Tuerca.png";
+    puertaHeader.src = "../Img/Exit.png";
+
+} else if (theme == "cheesecake") {
+    body.className = "cheesecake-theme";
     logoHeader.src = "../Img/Logo Mediano - Light.png";
     logoFooter.src = "../Img/Titulo simple - Light - Black.png";
     tuercaHeader.src = "../Img/Tuerca.png";
